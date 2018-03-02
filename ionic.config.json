@@ -1,0 +1,8 @@
+{
+  "name": "tabsprova",
+  "app_id": "2f0a85a7",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
