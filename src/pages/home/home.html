@@ -1,17 +1,29 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>
+      JO MAI MAI
+    </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content padding >
+  ESCULL EL NUVELL<br>
+  <ion-list>
+    
+      <ion-item>
+        <ion-label>FÀCIL</ion-label>
+        <ion-checkbox [(ngModel)]="FACIL"></ion-checkbox>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label>DIFICIL</ion-label>
+        <ion-checkbox [(ngModel)]="DIFICIL"></ion-checkbox>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label>EXTREM</ion-label>
+        <ion-checkbox [(ngModel)]="EXTREM"></ion-checkbox>
+      </ion-item>
+    
+    </ion-list>
 </ion-content>
